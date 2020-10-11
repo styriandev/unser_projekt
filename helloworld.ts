@@ -4,4 +4,8 @@ export class Person {
     constructor() {
         this.firstname = 'Franz';
     }
+
+    getName() {
+        return this.firstname;
+    }
 }
